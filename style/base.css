@@ -1,5 +1,28 @@
 * {
-  background-color: blue;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
   box-sizing: border-box;
-  border: 1px solid black;
+  text-align: center;
+}
+
+html{
+  background-color: black;
+}
+
+body{
+  background-color: white;
+  margin: auto;
+  width: 768px;
+}
+
+section{
+  margin-left: 143px;
+  width: 480px;
+}
+
+div{
+  width: 240px;
+  height: 250px;
+  line-height: 250px;
+  margin: 0px 0px 0px 0px;
 }
