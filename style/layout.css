@@ -1,0 +1,34 @@
+.efgh{
+  margin-left: 0px;
+  display: inline-flex;
+}
+
+#a{
+  height: 75px;  
+  line-height: 75px;
+  border: 1px solid black;
+}
+
+#b{
+  height: 150px;
+  line-height: 150px;
+  border: 1px solid black;
+}
+
+#c{
+  height: 125px;
+  line-height: 125px;
+  border: 1px solid black;
+}
+
+#d{
+  height: 125px;
+  line-height: 125px;
+  border: 1px solid black;
+}
+
+#i{
+  height: 80px;
+  line-height: 80px;
+  border: 1px solid black;
+}
