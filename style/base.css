@@ -1,6 +1,4 @@
 * {
-  margin: 0px 0px 0px 0px;
-  padding: 0px 0px 0px 0px;
   box-sizing: border-box;
   text-align: center;
 }
@@ -16,7 +14,7 @@ body{
 }
 
 section{
-  margin-left: 143px;
+  margin-left: 142px;
   width: 480px;
 }
 
@@ -24,5 +22,4 @@ div{
   width: 240px;
   height: 250px;
   line-height: 250px;
-  margin: 0px 0px 0px 0px;
 }
