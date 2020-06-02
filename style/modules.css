@@ -1,15 +1,102 @@
+#a{ 
+  background-color: red;
+  border: 1px solid black;
+  line-height: 75px;
+}
+
+#b{
+  background-color: orange;
+  border: 1px solid black;
+  line-height: 150px;
+}
+
+#c{
+  background-color: yellow;
+  border: 1px solid black;
+  line-height: 125px;
+}
+
+#d{
+  background-color: green;
+  border: 1px solid black;
+  line-height: 125px;
+}
+
 #e{
+  background-color: blue;
   border: 1px solid black;
 }
 
 #f{
+  background-color: indigo;
   border: 1px solid black;
 }
 
 #g{
+  background-color: violet;
   border: 1px solid black;
 }
 
 #h{
+  background-color: red;
   border: 1px solid black;
+}
+
+#i{
+  background-color: orange;
+  border: 1px solid black;
+  line-height: 80px;
+}
+
+@media only screen and (min-width: 786px){
+
+  #a{
+    background-color: rgb(255, 111, 111);
+    line-height: 100px;
+  }
+
+  #b{
+    background-color: rgb(255, 210, 125);
+    line-height: 600px;
+  }
+
+  #c{
+    background-color: rgb(255, 255, 129);
+    line-height: 200px;
+  }
+
+  #d{
+    background-color: rgb(132, 255, 132);
+    line-height: 200px;
+  }
+
+  
+  #e{
+    background-color: rgb(115, 115, 255);
+    border: 1px solid black;
+    order: 1;
+  }
+  
+  #f{
+    background-color: rgb(97, 58, 126);
+    border: 1px solid black;
+    order: 2;
+  }
+  
+  #g{
+    background-color: rgb(243, 192, 243);
+    border: 1px solid black;
+    order: 3;
+  }
+  
+  #h{
+    background-color: rgb(255, 109, 109);
+    border: 1px solid black;
+    order: 4;
+  }
+
+  #i{
+    background-color: rgb(255, 209, 123);
+    line-height: 150px;
+  }
 }

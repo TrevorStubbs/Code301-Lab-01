@@ -1,34 +1,80 @@
 .efgh{
-  margin-left: 0px;
   display: inline-flex;
+  margin-left: 0px;
 }
 
 #a{
+  border: 1px solid black;
   height: 75px;  
   line-height: 75px;
-  border: 1px solid black;
 }
 
 #b{
+  border: 1px solid black;
   height: 150px;
   line-height: 150px;
-  border: 1px solid black;
 }
 
 #c{
+  border: 1px solid black;
   height: 125px;
   line-height: 125px;
-  border: 1px solid black;
 }
 
 #d{
+  border: 1px solid black;
   height: 125px;
   line-height: 125px;
-  border: 1px solid black;
 }
 
 #i{
+  border: 1px solid black;
   height: 80px;
   line-height: 80px;
-  border: 1px solid black;
+}
+
+@media only screen and (min-width: 786px){
+  .efgh{
+    width: 760px;
+  }
+
+  #square{
+    display: flex;
+  }
+
+  #a{
+    height: 100px;
+    line-height: 100px;
+    width: 960px;
+  }
+
+  #b{
+    float: left;
+    height: 600px;
+    line-height: 600px;
+    width: 200px;
+  }
+
+  #cd{
+    display: flex;
+    width: 760px; 
+  }
+
+  #c{
+    height: 200px;
+    line-height: 200px;
+    width: 380px;
+  }
+  #d{
+    height: 200px;
+    line-height: 200px;
+    width: 380px;
+  }
+
+  #i{
+    height: 150px;
+    line-height: 150px;
+    margin-left: 200px;
+    width: 760px;
+  }
 }
