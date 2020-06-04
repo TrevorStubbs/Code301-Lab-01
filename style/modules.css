@@ -48,6 +48,53 @@ section:nth-child(9){
   line-height: 80px;
 }
 
+@media only screen and (min-width: 500px){
+
+  section:nth-child(1){
+    background-color: rgb(53, 24, 24);
+    
+  }
+
+  section:nth-child(2){
+    background-color: rgb(49, 40, 24);
+    line-height: 750px;
+  }
+
+  section:nth-child(3){
+    background-color: rgb(44, 44, 23);
+  }
+
+  section:nth-child(4){
+    background-color: rgb(35, 66, 35);
+  }
+
+  
+  section:nth-child(5){
+    background-color: rgb(23, 23, 51);
+    border: 1px solid black;
+  }
+  
+  section:nth-child(6){
+    background-color: rgb(32, 20, 42);
+    border: 1px solid black;
+  }
+  
+  section:nth-child(7){
+    background-color: rgb(46, 35, 46);
+    border: 1px solid black;
+  }
+  
+  section:nth-child(8){
+    background-color: rgb(66, 28, 28);
+    border: 1px solid black;
+  }
+
+  section:nth-child(9){
+    background-color: rgb(51, 42, 25);
+  }
+}
+
+
 @media only screen and (min-width: 786px){
 
   section:nth-child(1){
